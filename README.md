@@ -1,5 +1,5 @@
 # portfolio
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/80c16b07-efdb-4d91-80c5-d3a12969b240/deploy-status)](https://app.netlify.com/sites/taakuuyaa/deploys)
 > My fabulous Nuxt.js project
 
 ## Build Setup

@@ -1,12 +1,25 @@
 <template>
   <div class="header">
-    <h1>header</h1>
+    <h1>taakuuyaa</h1>
+
+    <ui>
+      <li>twitter</li>
+      <li>facebook</li>
+      <li>qiita</li>
+    </ui>
+
+    <nav>
+      <li>About</li>
+      <li>Work</li>
+      <li>Blog</li>
+      <li>Contact</li>
+    </nav>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Header',
+  name: 'TheHeader',
 }
 </script>
 

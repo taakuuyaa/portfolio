@@ -1,9 +1,6 @@
 <template>
   <div class="container">
-    <div class="top-contents">
-      <img src="" />
-      <h1>Profile</h1>
-    </div>
+    <img src="~/assets/image/web_development.svg" />
   </div>
 </template>
 
@@ -15,11 +12,5 @@ export default {
 
 <style>
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 </style>

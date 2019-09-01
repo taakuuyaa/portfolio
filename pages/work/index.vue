@@ -1,6 +1,6 @@
 <template>
   <div>
-    aboutページ
+    workページ
   </div>
 </template>
 

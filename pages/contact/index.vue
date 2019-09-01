@@ -1,6 +1,6 @@
 <template>
   <div>
-    aboutページ
+    contactページ
   </div>
 </template>
 

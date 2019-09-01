@@ -1,6 +1,6 @@
 <template>
   <div>
-    aboutページ
+    blogページ
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img src="~/assets/image/web_development.svg" />
+    <img src="@/assets/image/web_development.svg" />
   </div>
 </template>
 
@@ -12,5 +12,6 @@ export default {
 
 <style>
 .container {
+  text-align: center;
 }
 </style>

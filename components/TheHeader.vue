@@ -2,14 +2,22 @@
   <nav class="navbar is-white" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <div class="navbar-item">taakuuyaa</div>
-      <div class="navbar-burger" data-target="navMenu">
+      <div
+        class="navbar-burger"
+        data-target="navMenu"
+        :class="{ 'is-active': isMenuActive }"
+        @click="openMenu"
+      >
         <span></span>
         <span></span>
         <span></span>
       </div>
     </div>
-    <!-- navbar-brand END -->
-    <div id="navMenu" class="navbar-menu">
+    <div
+      id="navMenu"
+      class="navbar-menu"
+      :class="{ 'is-active': isMenuActive }"
+    >
       <div class="navbar-end">
         <nuxt-link to="/" class="navbar-item">Top</nuxt-link>
         <nuxt-link to="/about" class="navbar-item">About</nuxt-link>
@@ -18,13 +26,27 @@
         <nuxt-link to="/contact" class="navbar-item">Contact</nuxt-link>
       </div>
     </div>
-    <!-- navbar-menu END -->
   </nav>
 </template>
 
 <script>
 export default {
   name: 'TheHeader',
+  data() {
+    return {
+      isMenuActive: false,
+    }
+  },
+  watch: {
+    $route() {
+      this.isMenuActive = false
+    },
+  },
+  methods: {
+    openMenu() {
+      this.isMenuActive = !this.isMenuActive
+    },
+  },
 }
 </script>
 

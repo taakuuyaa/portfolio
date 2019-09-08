@@ -1,6 +1,6 @@
 const path = require('path')
 
-export default {
+module.exports = {
   mode: 'universal',
   /*
    ** Headers of the page

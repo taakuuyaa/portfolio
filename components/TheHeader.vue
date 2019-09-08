@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar is-white" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <div class="navbar-item">taakuuyaa</div>
+      <div class="navbar-item">
+        <nuxt-link to="/" class="navbar-item">taakuuyaa</nuxt-link>
+      </div>
       <div
         class="navbar-burger"
         data-target="navMenu"

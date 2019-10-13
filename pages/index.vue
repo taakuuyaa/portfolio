@@ -14,9 +14,9 @@
 
         <div class="profile-description column">
           <div>
-            <p>name: taakuuyaa</p>
-            <p>age: 24</p>
-            <p>occupation: Engineer</p>
+            <p>Name: taakuuyaa</p>
+            <p>Age: 24</p>
+            <p>Job: Engineer</p>
           </div>
         </div>
       </div>

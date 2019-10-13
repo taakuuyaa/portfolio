@@ -70,7 +70,7 @@
           <div class="column">
             <a href="https://github.com/taakuuyaa">
               <font-awesome-icon
-                :icon="['fab', 'github-square']"
+                :icon="['fab', 'facebook-square']"
                 class="fa-4x"
               />
             </a>

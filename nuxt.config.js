@@ -6,7 +6,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'taakuuyaa',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -44,8 +44,16 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/bulma',
-    '@nuxtjs/font-awesome',
+    'nuxt-fontawesome',
   ],
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab'],
+      },
+    ],
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

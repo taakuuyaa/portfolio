@@ -22,7 +22,6 @@
     >
       <div class="navbar-end">
         <nuxt-link to="/" class="navbar-item">Top</nuxt-link>
-        <nuxt-link to="/about" class="navbar-item">About</nuxt-link>
         <nuxt-link to="/work" class="navbar-item">Work</nuxt-link>
         <nuxt-link to="/blog" class="navbar-item">Blog</nuxt-link>
         <nuxt-link to="/contact" class="navbar-item">Contact</nuxt-link>

@@ -85,41 +85,41 @@ export default {
 
 <style lang="scss">
 #wrapper {
-}
-.profile-wrapper {
-  max-width: 800px;
-  font-size: 20px;
-  margin: 0 auto;
-  padding: 24px;
-  .profile {
-    .is-128x128 {
-      margin: auto;
-    }
-    .profile-icon {
-      margin: auto;
-    }
-    .profile-description {
-      p {
-        font-size: 1rem;
+  p {
+    font-size: 1.2rem;
+  }
+  .profile-wrapper {
+    max-width: 800px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 24px;
+    .profile {
+      .is-128x128 {
+        margin: auto;
       }
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      .profile-icon {
+        margin: auto;
+      }
+      .profile-description {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+      }
     }
-  }
-  .history {
-    text-align: center;
-    margin-top: 10px;
-    padding: 0 55px;
-    .history-item {
-      text-align: left;
+    .history {
+      text-align: center;
+      margin-top: 10px;
+      padding: 0 55px;
+      .history-item {
+        text-align: left;
+      }
     }
-  }
-  .links {
-    text-align: center;
-    margin-top: 10px;
-    a {
-      color: #000000;
+    .links {
+      text-align: center;
+      margin-top: 10px;
+      a {
+        color: #000000;
+      }
     }
   }
 }

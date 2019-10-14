@@ -3,21 +3,17 @@
     <div class="profile-wrapper">
       <div class="profile columns is-mobile">
         <div class="column">
-          <div class="image">
+          <div class="image is-128x128">
             <img
               class="is-rounded"
-              src="@/assets/image/profile_icon.jpeg"
+              src="~/assets/image/profile_icon.jpeg"
               alt="icon"
             />
           </div>
         </div>
 
         <div class="profile-description column">
-          <div>
-            <p>Name: taakuuyaa</p>
-            <p>Age: 24</p>
-            <p>Job: Engineer</p>
-          </div>
+          <p>Name: taakuuyaa<br />Age: 24<br />Job: Engineer</p>
         </div>
       </div>
       <hr />
@@ -55,7 +51,7 @@
             </a>
           </div>
           <div class="column">
-            <a href="https://github.com/taakuuyaa">
+            <a href="https://twitter.com/_taakuuyaa">
               <font-awesome-icon
                 :icon="['fab', 'twitter-square']"
                 class="fa-4x"
@@ -63,12 +59,12 @@
             </a>
           </div>
           <div class="column">
-            <a href="https://github.com/taakuuyaa">
+            <a href="https://www.instagram.com/_taakuuyaa">
               <font-awesome-icon :icon="['fab', 'instagram']" class="fa-4x" />
             </a>
           </div>
           <div class="column">
-            <a href="https://github.com/taakuuyaa">
+            <a href="https://www.facebook.com/profile.php?id=100036937809528">
               <font-awesome-icon
                 :icon="['fab', 'facebook-square']"
                 class="fa-4x"
@@ -96,10 +92,16 @@ export default {
   margin: 0 auto;
   padding: 24px;
   .profile {
+    .is-128x128 {
+      margin: auto;
+    }
     .profile-icon {
       margin: auto;
     }
     .profile-description {
+      p {
+        font-size: 1rem;
+      }
       display: flex;
       justify-content: center;
       align-items: center;

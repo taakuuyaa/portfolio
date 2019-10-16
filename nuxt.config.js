@@ -45,6 +45,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/bulma',
     'nuxt-fontawesome',
+    '@nuxtjs/markdownit',
   ],
   fontawesome: {
     imports: [
@@ -53,6 +54,11 @@ module.exports = {
         icons: ['fab'],
       },
     ],
+  },
+  markdownit: {
+    injected: true,
+    breaks: true,
+    html: true,
   },
   /*
    ** Axios module configuration
@@ -66,7 +72,17 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {},
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/,
+        })
+      }
+    },
   },
 
   /*

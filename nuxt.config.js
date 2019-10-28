@@ -67,13 +67,6 @@ module.exports = {
     breaks: true,
     html: true,
   },
-  pwa: {
-    manifest: {
-      name: 'taakuuyaa',
-      lang: 'ja',
-      background_color: 'red',
-    },
-  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

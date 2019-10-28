@@ -47,7 +47,7 @@
         <h1>Accounts</h1>
         <div class="columns is-mobile">
           <div class="column">
-            <a href="https://github.com/taakuuyaa">
+            <a href="https://github.com/taakuuyaa" aria-label="githubへ">
               <font-awesome-icon
                 :icon="['fab', 'github-square']"
                 class="fa-4x"
@@ -55,7 +55,7 @@
             </a>
           </div>
           <div class="column">
-            <a href="https://twitter.com/_taakuuyaa">
+            <a href="https://twitter.com/_taakuuyaa" aria-label="twitterへ">
               <font-awesome-icon
                 :icon="['fab', 'twitter-square']"
                 class="fa-4x"
@@ -63,12 +63,18 @@
             </a>
           </div>
           <div class="column">
-            <a href="https://www.instagram.com/_taakuuyaa">
+            <a
+              href="https://www.instagram.com/_taakuuyaa"
+              aria-label="instagramへ"
+            >
               <font-awesome-icon :icon="['fab', 'instagram']" class="fa-4x" />
             </a>
           </div>
           <div class="column">
-            <a href="https://www.facebook.com/profile.php?id=100036937809528">
+            <a
+              href="https://www.facebook.com/profile.php?id=100036937809528"
+              aria-label="facebookへ"
+            >
               <font-awesome-icon
                 :icon="['fab', 'facebook-square']"
                 class="fa-4x"

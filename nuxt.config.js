@@ -67,6 +67,26 @@ module.exports = {
     breaks: true,
     html: true,
   },
+  pwa: {
+    manifest: {
+      lang: 'ja',
+      name: 'taakuuyaa',
+      short_name: 'taakuuyaa',
+      start_url: '/',
+      display: 'standalone',
+      background_color: '#ffffff',
+      theme_color: '#ffffff',
+      description: "taakuuyaa's portfolio",
+      orientation: 'portrait',
+    },
+    icons: {
+      sizes: [64, 120, 144, 152, 167, 180, 192, 384, 512],
+    },
+    // workbox: {
+    //   /* workbox options */
+    //   dev: true,
+    // },
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

@@ -27,7 +27,7 @@ module.exports = {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: 'red' },
   /*
    ** Global CSS
    */
@@ -79,9 +79,7 @@ module.exports = {
       description: "taakuuyaa's portfolio",
       orientation: 'portrait',
     },
-    icons: {
-      iconSrc: 'static/icon.png',
-      iconFileName: 'icon.png',
+    icon: {
       sizes: [64, 120, 144, 152, 167, 180, 192, 384, 512],
     },
     workbox: {

@@ -27,13 +27,17 @@
         <h1>History</h1>
         <p class="history-item">
           2018.07 ~ now
-          <a href="https://noin.tv/" target="_blank">
+          <a href="https://noin.tv/" target="_blank" rel="nofollow noopener">
             NOIN, INC based in Tokyo
           </a>
         </p>
         <p class="history-item">
           2018.04 ~ 2019.06
-          <a href="https://www.gnavi.co.jp/" target="_blank">
+          <a
+            href="https://www.gnavi.co.jp/"
+            target="_blank"
+            rel="nofollow noopener"
+          >
             Gurunavi, Inc based in Tokyo
           </a>
         </p>

@@ -54,9 +54,6 @@ module.exports = {
     '@nuxtjs/markdownit',
     '@nuxtjs/pwa',
   ],
-  workbox: {
-    dev: true, //開発環境でもPWAできるように
-  },
   fontawesome: {
     imports: [
       {

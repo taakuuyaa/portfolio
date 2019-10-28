@@ -80,12 +80,14 @@ module.exports = {
       orientation: 'portrait',
     },
     icons: {
+      iconSrc: 'static/icon.png',
+      iconFileName: 'icon.png',
       sizes: [64, 120, 144, 152, 167, 180, 192, 384, 512],
     },
-    // workbox: {
-    //   /* workbox options */
-    //   dev: true,
-    // },
+    workbox: {
+      /* workbox options */
+      dev: true,
+    },
   },
   /*
    ** Axios module configuration

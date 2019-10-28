@@ -22,7 +22,10 @@ module.exports = {
         content: process.env.npm_package_description || '',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/icon.png' },
+    ],
   },
   /*
    ** Customize the progress-bar color

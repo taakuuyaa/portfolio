@@ -60,12 +60,20 @@ module.exports = {
     '@nuxtjs/markdownit',
     '@nuxtjs/pwa',
     'nuxt-webfontloader',
+    '@nuxtjs/style-resources',
   ],
+  styleResources: {
+    scss: ['~/assets/scss/_variable.scss'],
+  },
   fontawesome: {
     imports: [
       {
         set: '@fortawesome/free-brands-svg-icons',
         icons: ['fab'],
+      },
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas'],
       },
     ],
   },
@@ -92,7 +100,7 @@ module.exports = {
   },
   webfontloader: {
     google: {
-      families: ['Lato'],
+      families: ['Lato:700', 'Raleway:900&display=swap'],
     },
   },
   /*

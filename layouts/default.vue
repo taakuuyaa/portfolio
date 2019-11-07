@@ -1,9 +1,15 @@
 <template>
-  <nuxt />
+  <div class="wrapper">
+    <nuxt />
+  </div>
 </template>
 
 <script>
 export default {}
 </script>
 
-<style></style>
+<style>
+.wrapper {
+  height: 100%;
+}
+</style>

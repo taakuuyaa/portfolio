@@ -1,6 +1,6 @@
 <template>
-  <section class="section center">
-    <div class="container">
+  <section class="section">
+    <div class="container center">
       <div class="center-column">
         <h3 class="subtitle">HELLO, WORLD.</h3>
         <h1 class="title">I'm Taakuuyaa.</h1>
@@ -14,7 +14,7 @@
         </button>
       </div>
     </div>
-    <a href="#"><span></span></a>
+    <a href="#test"><span></span></a>
   </section>
 </template>
 
@@ -38,9 +38,9 @@ export default {
 }
 .section {
   background: #000022 url('~assets/image/circuit.svg');
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100%;
   .container {
+    min-height: 100%;
     .title,
     .occupation {
       color: #fff;
@@ -88,6 +88,7 @@ export default {
   a {
     padding-top: 70px;
     position: absolute;
+    left: 50%;
     bottom: 10px;
     z-index: 2;
     display: block;

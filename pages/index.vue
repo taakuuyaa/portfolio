@@ -1,5 +1,7 @@
 <template>
-  <TopIntro />
+  <div class="page-top">
+    <TopIntro />
+  </div>
 </template>
 
 <script>
@@ -12,4 +14,8 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.page-top {
+  height: 100%;
+}
+</style>

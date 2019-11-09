@@ -40,14 +40,7 @@ export default {
   background: #000022 url('~assets/image/circuit.svg');
   height: 100%;
   .container {
-    @media screen and (orientation: landscape) {
-      /* 横向きの場合のスタイル */
-      min-width: 100vw;
-    }
-    @media screen and (orientation: portrait) {
-      /* 縦向きの場合のスタイル */
-      min-height: 100%;
-    }
+    min-height: 100%;
     .title,
     .occupation {
       color: #fff;

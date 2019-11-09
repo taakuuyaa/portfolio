@@ -8,6 +8,10 @@ module.exports = {
     CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN,
     CTF_BLOG_POST_TYPE_ID: process.env.CTF_BLOG_POST_TYPE_ID,
   },
+  server: {
+    port: 3005, // デフォルト: 3005
+    host: '0.0.0.0', // デフォルト: localhost
+  },
   /*
    ** Headers of the page
    */

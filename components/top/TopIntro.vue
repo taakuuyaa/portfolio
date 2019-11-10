@@ -1,10 +1,10 @@
 <template>
-  <section class="section">
-    <div class="container center">
+  <section class="section center">
+    <div class="container">
       <div class="center-column">
         <h3 class="subtitle">HELLO, WORLD.</h3>
         <h1 class="title">I'm Taakuuyaa.</h1>
-        <p class="occupation"><span>WEB ENGINEER</span></p>
+        <p class="occupation"><span>WEB DEVELOPER</span></p>
         <button>
           LEARN MORE
           <font-awesome-icon
@@ -40,12 +40,10 @@ export default {
   background: #000022 url('~assets/image/circuit.svg');
   height: 100%;
   .container {
-    min-height: 100%;
     .title,
     .occupation {
       color: #fff;
     }
-
     .subtitle {
       color: $focus_color;
       margin-bottom: 0.3rem;

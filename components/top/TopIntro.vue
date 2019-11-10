@@ -54,7 +54,7 @@ export default {
     .title {
       max-width: 900px;
       color: #fff;
-      font-size: 2.5rem;
+      /*font-size: 2.5rem;*/
       font-family: 'Raleway', sans-serif;
       font-weight: 900;
       letter-spacing: 0.1rem;

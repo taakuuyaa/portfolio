@@ -1,13 +1,13 @@
 <template>
-  <section class="section">
+  <section class="section" id="about">
     <div class="container">
       <h1 class="title has-text-centered">
         ABOUT
       </h1>
 
-      <div class="columns">
+      <div class="columns is-mobile is-multiline">
         <!--      左側-->
-        <div class="column">
+        <div class="column is-12-mobile">
           <h5 class="title">MY PROFILE</h5>
           <p>
             テストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -49,7 +49,7 @@
           </ul>
         </div>
         <!--      右側-->
-        <div class="column">
+        <div class="column is-12-mobile">
           <h5 class="title">MY SKILLS</h5>
           <p>
             テストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -114,8 +114,7 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  height: 100%;
-
+  min-height: 100%;
   .container {
     width: 90%;
   }

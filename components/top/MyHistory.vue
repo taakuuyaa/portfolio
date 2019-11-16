@@ -16,8 +16,7 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  height: 100%;
-
+  min-height: 100%;
   .container {
     width: 90%;
   }

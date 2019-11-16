@@ -14,7 +14,7 @@
         </button>
       </div>
     </div>
-    <a href="#test"><span></span></a>
+    <a href="#about"><span></span></a>
   </section>
 </template>
 
@@ -38,7 +38,7 @@ export default {
 }
 .section {
   background: #000022 url('~assets/image/circuit.svg');
-  height: 100%;
+  min-height: 100%;
   .container {
     .title,
     .occupation {

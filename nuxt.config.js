@@ -65,6 +65,7 @@ module.exports = {
     '@nuxtjs/pwa',
     'nuxt-webfontloader',
     '@nuxtjs/style-resources',
+    'vue-scrollto/nuxt',
   ],
   styleResources: {
     scss: ['~/assets/scss/_variable.scss'],

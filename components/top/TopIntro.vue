@@ -5,7 +5,7 @@
         <h3 class="subtitle is-spaced">HELLO, WORLD.</h3>
         <h1 class="title">I'm Taakuuyaa.</h1>
         <p class="occupation"><span>WEB DEVELOPER</span></p>
-        <a href="#about">
+        <a v-scroll-to="{ element: '#about', duration: 700 }">
           <button>
             LEARN MORE
             <font-awesome-icon
@@ -15,7 +15,12 @@
           </button>
         </a>
       </div>
-      <a href="#about" class="bottom-arrow"><span></span></a>
+      <a
+        v-scroll-to="{ element: '#about', duration: 700 }"
+        class="bottom-arrow"
+      >
+        <span></span>
+      </a>
     </div>
   </section>
 </template>

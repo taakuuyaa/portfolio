@@ -1,5 +1,5 @@
 <template>
-  <section class="section" id="about">
+  <section id="about" class="section">
     <div class="container">
       <h1 class="title has-text-centered">
         ABOUT
